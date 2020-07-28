@@ -1,0 +1,22 @@
+package switchcase;
+
+import java.util.Scanner;
+
+public class Switch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int choice;
+System.out.println("Pick ONE : 1.Fruit\t2.Vegetables\t3.Meat\t");
+Scanner s = new Scanner(System.in);
+choice= s.nextInt();
+switch(choice)
+{ case 1 : System.out.println("MANGO");break;
+case 2 : System.out.println("POTATO");break;
+case 3 : System.out.println("MUTTON FRY");break;
+default : System.out.println("Invalid choice");
+
+}
+	}
+
+}
